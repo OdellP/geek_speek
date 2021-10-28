@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap', '~> 5.1'
 gem 'devise'
+gem 'factory_bot'
 gem 'jquery-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -47,6 +48,10 @@ group :development do
   gem 'spring'
   gem "better_errors"
   gem "binding_of_caller"
+end
+
+group :test do
+  gem 'shoulda-matchers', '~> 5.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
