@@ -9,9 +9,9 @@ RSpec.describe User, type: :model do
         User.create!(
           first_name: 'Test',
           last_name: 'User',
-          email: 'test@user.com',
+          email: 'test123@user.com',
           username: 'Testing24',
-          password: 'Password24',
+          password: 'Testing456',
           will_pair_program: true
         )
       end
