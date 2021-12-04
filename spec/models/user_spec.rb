@@ -19,9 +19,9 @@ RSpec.describe User, type: :model do
     end
   end
 
-  # describe "associations" do
-  #   it { is_expected.to have_many :speeks }
-  # end
+  describe "associations" do
+    it { is_expected.to have_many :speeks }
+  end
 
   describe "length validations" do
     it { is_expected.to validate_length_of(:email).is_at_most(80) }
